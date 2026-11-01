@@ -3,11 +3,9 @@
 > **Share Your Stories with the World.**  
 > A modern, responsive, high-craft editorial blogging application developed purely with **HTML5**, **CSS3**, and **Vanilla JavaScript**, featuring zero framework dependencies and robust **LocalStorage** persistence.
 >
-> **Author:** Minhaz Fahim  
-> **Contact:** [minhazfahim442@gmail.com](mailto:minhazfahim442@gmail.com)  
-> **Live Demo:** [https://ais-pre-26na4xqefbpyn3udl6krtw-947406464766.asia-east1.run.app](https://ais-pre-26na4xqefbpyn3udl6krtw-947406464766.asia-east1.run.app)
-
----
+> **Author:** MD.MINHAZUR RAHMAN FAHIM
+> **Contact:** fahim1252375@icloud.com
+> **Live Demo:** https://bejewelled-haupia-dd6200.netlify.app
 
 ## 🌟 Project Overview
 
