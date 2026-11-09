@@ -36,7 +36,7 @@ Requirements: Node.js and npm.
 
     git clone https://github.com/fahim1252375-maker/blog-application-frontend.git
     cd blog-application-frontend
-    npm ci
+    npm install
     npm run dev
 
 Open the local URL printed by Vite.
