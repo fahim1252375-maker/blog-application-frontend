@@ -446,7 +446,8 @@ export function getCurrentUser() {
 }
 
 /**
- * Creates a deterministic demo-only SHA-256 digest. This is NOT secure password storage.\n * Never use this browser-side helper for real accounts or sensitive credentials.
+ * Creates a deterministic demo-only SHA-256 digest. This is NOT secure password storage.
+ * Never use this browser-side helper for real accounts or sensitive credentials.
  */
 export async function hashPassword(password) {
   if (!password) return '';
