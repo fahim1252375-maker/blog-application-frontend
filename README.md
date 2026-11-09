@@ -1,58 +1,60 @@
-# BlogSpace — Frontend Blogging Application
+# BlogSpace — Frontend
 
-A responsive, multi-page blogging interface built with HTML, CSS, and vanilla JavaScript. The project demonstrates page layout, interactive article browsing, client-side state, form validation, and responsive UI patterns.
+BlogSpace is a browser-based blogging interface I built to practise multi-page frontend development. It has a public reading experience as well as screens for signing in and managing posts.
 
-**Author:** MD. Minhazur Rahman Fahim  
 **Live demo:** https://bejewelled-haupia-dd6200.netlify.app  
-**Repository:** https://github.com/fahim1252375-maker/blog-application-frontend
+**Source:** https://github.com/fahim1252375-maker/blog-application-frontend
 
-## Features
+## What you can try
 
-- Editorial-style homepage with article cards
-- Article search and category filtering
-- Article reader modal
-- Login and registration interface
-- Author dashboard with post metrics
-- Create, edit, publish, and delete post interactions
-- Responsive navigation and layouts
-- Form validation and password-strength feedback
-- LocalStorage-based demo persistence
+- Browse article cards on the homepage
+- Search articles and filter them by category
+- Open an article in the reader modal
+- Explore the login and registration screens
+- Open the author dashboard
+- Create, edit, publish, and delete demo posts
+- Resize the page to see the responsive layouts
 
-## Technology
+The dashboard and post actions are part of the frontend demonstration. They are not connected to the separate BlogSpace backend in this repository.
+
+## Built with
 
 - HTML5 and CSS3
-- Vanilla JavaScript (ES modules)
-- LocalStorage
+- Vanilla JavaScript using ES modules
 - Vite
-- TypeScript utilities and tests
+- LocalStorage for demo data
 
-## Important Scope Note
+## Run it locally
 
-This is a **frontend demonstration**, not a production authentication system. Login, sessions, and post data are simulated in the browser using LocalStorage. Data is local to the browser and is not shared between users. Do not enter real passwords, private information, or sensitive data.
+You will need Node.js and npm.
 
-## Run Locally
+~~~bash
+git clone https://github.com/fahim1252375-maker/blog-application-frontend.git
+cd blog-application-frontend
+npm install
+npm run dev
+~~~
 
-Requirements: Node.js and npm.
+Vite prints the local address in the terminal.
 
-    git clone https://github.com/fahim1252375-maker/blog-application-frontend.git
-    cd blog-application-frontend
-    npm install
-    npm run dev
+## Project checks
 
-Open the local URL printed by Vite.
+The repository includes these scripts:
 
-## Build, Lint, and Test
+~~~bash
+npm run lint
+npm test
+npm run build
+~~~
 
-    npm run lint
-    npm test
-    npm run build
+Run them on your current checkout before treating the result as a verified build.
 
-These commands are available in the project. Run them against the current checkout before reporting a new release as verified.
+## A note about the demo
 
-## Project Purpose
+This version stores its sample posts and interface state in the browser with LocalStorage. It does not provide real account authentication, shared user data, or server-side persistence. Please do not use real passwords or private information in the demo.
 
-BlogSpace Frontend is a portfolio project for demonstrating multi-page interface development, DOM interactions, client-side state handling, and responsive styling.
+For the API-backed version, see [BlogSpace Full-Stack](https://github.com/fahim1252375-maker/blogspace-fullstack).
 
 ---
 
-Built as a frontend learning and portfolio project.
+A frontend project by MD. Minhazur Rahman Fahim.
