@@ -446,7 +446,7 @@ export function getCurrentUser() {
 }
 
 /**
- * Hashes password using SHA-256 with salt for secure storage
+ * Creates a deterministic demo-only SHA-256 digest. This is NOT secure password storage.\n * Never use this browser-side helper for real accounts or sensitive credentials.
  */
 export async function hashPassword(password) {
   if (!password) return '';
