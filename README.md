@@ -1,30 +1,30 @@
 # BlogSpace — Frontend
 
-BlogSpace is a browser-based blogging interface I built to practise multi-page frontend development. It has a public reading experience as well as screens for signing in and managing posts.
+A responsive, browser-based blogging interface built to practise multi-page frontend development. It includes a public reading experience as well as screens for signing in and managing posts.
 
 **Live demo:** https://bejewelled-haupia-dd6200.netlify.app  
 **Source:** https://github.com/fahim1252375-maker/blog-application-frontend
 
-## What you can try
+## Features
 
 - Browse article cards on the homepage
 - Search articles and filter them by category
 - Open an article in the reader modal
-- Explore the login and registration screens
+- Explore login and registration screens
 - Open the author dashboard
-- Create, edit, publish, and delete demo posts
-- Resize the page to see the responsive layouts
+- Create, edit, publish, and delete demonstration posts
+- Responsive layouts for different screen sizes
 
 The dashboard and post actions are part of the frontend demonstration. They are not connected to the separate BlogSpace backend in this repository.
 
-## Built with
+## Built With
 
 - HTML5 and CSS3
 - Vanilla JavaScript using ES modules
 - Vite
-- LocalStorage for demo data
+- LocalStorage for demonstration data
 
-## Run it locally
+## Run Locally
 
 You will need Node.js and npm.
 
@@ -37,7 +37,7 @@ npm run dev
 
 Vite prints the local address in the terminal.
 
-## Project checks
+## Project Checks
 
 The repository includes these scripts:
 
@@ -49,12 +49,16 @@ npm run build
 
 Run them on your current checkout before treating the result as a verified build.
 
-## A note about the demo
+## Demo Scope and Data Handling
 
-This version stores its sample posts and interface state in the browser with LocalStorage. It does not provide real account authentication, shared user data, or server-side persistence. Please do not use real passwords or private information in the demo.
+This version stores sample posts and interface state in the browser with LocalStorage. It does not provide real account authentication, shared user data, or server-side persistence. Do not use real passwords or private information in the demo.
 
 For the API-backed version, see [BlogSpace Full-Stack](https://github.com/fahim1252375-maker/blogspace-fullstack).
 
+## AI Use Disclosure
+
+AI tools may be used as supporting aids for brainstorming, explaining concepts, debugging, and drafting documentation. The project author is responsible for reviewing, adapting, understanding, and testing published work. AI suggestions are not treated as verified results unless checked against the actual implementation.
+
 ---
 
-A frontend project by MD. Minhazur Rahman Fahim.
+A frontend learning and portfolio project by MD. Minhazur Rahman Fahim.
