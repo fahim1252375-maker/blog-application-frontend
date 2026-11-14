@@ -2,7 +2,7 @@
 
 A responsive, browser-based blogging interface built to practise multi-page frontend development. It includes a public reading experience as well as screens for signing in and managing posts.
 
-**Live demo:** https://bejewelled-haupia-dd6200.netlify.app  
+**Live demos:** [Netlify](https://bejewelled-haupia-dd6200.netlify.app) · [Render](https://blogspace-frontend-demo.onrender.com)  
 **Source:** https://github.com/fahim1252375-maker/blog-application-frontend
 
 ## Features
